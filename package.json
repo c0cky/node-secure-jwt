@@ -1,0 +1,22 @@
+{
+  "name": "node-secure-jwt",
+  "version": "1.0.0",
+  "description": "jwt with just hmac",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gihtub.com/c0cky/"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js"
+},
+  "keywords": [
+    "hmac"
+  ],
+  "author": "camron godbout",
+  "license": "ISC"
+}
